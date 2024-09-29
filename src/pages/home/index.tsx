@@ -252,9 +252,9 @@ export function HomePage() {
             month={'Junho'}
           />
           <EventButtonHome
-            img={'./festa-junina.jpg'}
+            img={'./feira-mundial.jpg'}
             title={'Feira Gastronômica Mundial'}
-            subtitle={'Sabores dos Continentes'}
+            subtitle={'Viajando pela Cultura'}
             day={28}
             month={'Julho'}
           />
@@ -266,7 +266,7 @@ export function HomePage() {
             month={'Agosto'}
           />
         </nav>
-        <nav className="hidden sm:flex drop-shadow-2xl justify-center items-center w-full mx-4">
+        <nav className="hidden sm:flex drop-shadow-2xl justify-center items-center w-full mx-4 overflow-hidden">
           <Swiper
             effect={'cards'}
             grabCursor={true}
